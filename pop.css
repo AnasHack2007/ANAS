@@ -10,6 +10,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(pop.png);
+    background-repeat: no-repeat;
+    background-size:100% 200vh;
+}
+
+
 .all{
     display: flex;
     justify-content: space-around;
@@ -78,34 +85,201 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border:none;
     transition: 0.9s;
-    margin-left: -70px;
-    margin-top: 50px;
-    margin-left: 70px;
+   margin-bottom: 50px;
+   margin-top: 40px;
+   margin-left: 80px;
 }
 
 .ni input:hover{
-transform: scale(1.1)
+    transform: scale(1.1)
+    }
+
+
+.nin textarea{
+    height: 300px;
+    width:500px ;
+    border-radius: 1em;
+    padding-left: 30px;
+    margin: 10px;
+    font-size: 30px;
+    border-bottom: 1px solid blue;
+    border-top: 1px solid blue ;
+    border-left: 1px solid blue ;
+    border-right: 1px solid blue ;
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
-.im img{
-    height: 700px;
-    width: 600px;
-    border-radius: 4%;
-    margin-top: 20px;
-    margin-right: 40px;
+
+@media  (min-width:290px){
+
+
+    .e h1{
+        font-size: 40px;
+    }
+
+    .in-1 input{
+        height: 30px;
+        width:250px ;
+        font-size: 15px;
+    }
+
+    .in-2 input{
+        height: 30px;
+        width:250px ;
+        font-size: 15px;
+    }
+    .in-3 input{
+        height: 30px;
+        width:250px ;
+        font-size: 15px;
+    }
+
+    .nin textarea{
+        height: 200px;
+        width:250px ;
+        border-radius: 1em;
+        padding-left: 30px;
+        margin: 10px;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 40px;
+        width: 250px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
 }
 
-.in input{
-    font-size: 25px;
-    height: 60px;
-    width: 250px;
-    border-radius: 40em;
-    background:blue;
-    color:white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border:none;
-    transition: 0.9s;
-    margin-left: -70px;
-    margin-top: 50px;
-    margin-left: 200px;
+@media  (min-width:350px){
+
+    .e h1{
+        font-size: 45px;
+    }
+
+    .in-1 input{
+        height: 45px;
+        width:300px ;
+        font-size: 17px;
+    }
+
+    .in-2 input{
+        height: 45px;
+        width:300px ;
+        font-size: 17px;
+    }
+    .in-3 input{
+        height: 45px;
+        width:300px ;
+        font-size: 17px;
+    }
+
+    .nin textarea{
+        height: 200px;
+        width:300px ;
+        border-radius: 1em;
+        padding-left: 30px;
+        margin: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 45px;
+        width: 300px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media  (min-width:420px){
+
+    .e h1{
+        font-size: 45px;
+    }
+
+    .in-1 input{
+        height: 50px;
+        width:400px ;
+        font-size: 20px;
+    }
+
+    .in-2 input{
+        height: 50px;
+        width:400px ;
+        font-size: 20px;
+    }
+    .in-3 input{
+        height: 50px;
+        width:400px ;
+        font-size: 20px;
+    }
+
+    .nin textarea{
+        height: 300px;
+        width:400px ;
+        border-radius: 1em;
+        padding-left: 30px;
+        margin: 10px;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .ni input{
+        font-size: 25px;
+        height: 50px;
+        width: 350px;
+        margin-left: 30px;
+    }
+    
+}
+
+@media  (min-width:650px){
+
+    .e h1{
+        font-size: 45px;
+    }
+
+    .in-1 input{
+        height: 60px;
+        width:500px ;
+        font-size: 30px;
+    }
+
+    .in-2 input{
+        height: 60px;
+        width:500px ;
+        font-size: 30px;
+    }
+    .in-3 input{
+        height: 60px;
+        width:500px ;
+        font-size: 30px;
+    }
+
+    .nin textarea{
+        height: 300px;
+        width:500px ;
+        border-radius: 1em;
+        padding-left: 30px;
+        margin: 10px;
+        font-size: 35px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .ni input{
+        font-size: 25px;
+        height: 50px;
+        width: 350px;
+        margin-left: 70px;
+    }
 }
